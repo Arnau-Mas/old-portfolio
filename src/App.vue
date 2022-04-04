@@ -49,12 +49,6 @@ function changeChecked(){
 <HomePage></HomePage>
 <!-- main tools -->
 
-<div>
-  
-</div>
-<div>
-
-</div>
 </div>
 </template>
 <style>

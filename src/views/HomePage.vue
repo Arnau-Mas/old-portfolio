@@ -1,6 +1,7 @@
 <script setup>
     import MainTools from "../components/MainTools.vue";
 import ProjectsCarousel from "../components/ProjectsCarousel.vue";
+import FooterSection from "../components/FooterSection.vue";
 </script>
 <template>
     <div class="hero sm:mt-14 2xl:mt-36">
@@ -20,4 +21,5 @@ import ProjectsCarousel from "../components/ProjectsCarousel.vue";
     </div>
     <MainTools/>
     <ProjectsCarousel></ProjectsCarousel>
+    <FooterSection/>
 </template>
