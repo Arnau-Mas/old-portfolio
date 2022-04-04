@@ -1,11 +1,22 @@
 <script setup>
 import HomePage from './views/HomePage.vue';
 import MainTools from './views/MainTools.vue';
+import {ref} from 'vue';
+let isChecked = ref("true");
+let dataTheme = ref("forest");
+function changeChecked(){
+  isChecked.value = !isChecked.value
+  if(dataTheme.value == 'forest'){
+    dataTheme.value = 'emerald'
+  }else{
+    dataTheme.value = 'forest'
+  }
+}
 </script>
 
 <template>
-<div class="	transition-property: all max-w-6xl mx-auto" data-theme="forest">
-<div class="navbar bg-base-100">
+<div class="transition-property: all h-screen" :data-theme="dataTheme">
+<div class="navbar bg-base-100 max-w-6xl mx-auto">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -26,7 +37,12 @@ import MainTools from './views/MainTools.vue';
       <li><a>About</a></li>
     </ul>
   </div>
-  <div class="navbar-end">
+  <div class="navbar-end gap-2">
+    <div class="form-control">
+  <label class="label cursor-pointer">
+    <input @change="changeChecked" type="checkbox" class="toggle toggle-primary" :checked="isChecked">
+  </label>
+</div>
     <a class="btn btn-primary">Contact</a>
   </div>
 </div>
