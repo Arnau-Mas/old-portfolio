@@ -1,5 +1,5 @@
 <template>
-    <section class="sm:mt-14 2xl:mt-28 flex flex-row flex-wrap gap-20 justify-center">
+    <section class="sm:mt-14 2xl:mt-32 flex flex-row flex-wrap gap-20 justify-center">
         <div class="tooltip hover:scale-110 hover:bg-opacity-30 hover:bg-gray-700 text-slate rounded-2xl tooltip-primary" data-tip="+1 year experience in HTML5">
             <div class="card-body p-5 items-center text-center">
                 <img class="sm:h-14 2xl:h-16" src="../assets/html-logo.png" alt="HTML5">
