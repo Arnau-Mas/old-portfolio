@@ -1,9 +1,9 @@
 <template>
     <footer class="mt-10 footer footer-center p-10 bg-base-100 text-base-content rounded">
     <div class="grid grid-flow-col gap-4">
-        <a class="link link-hover">About</a> 
-        <a class="link link-hover">Contact</a> 
-        <a class="link link-hover hover:text-primary">Surprise</a> 
+        <router-link to="about" class="link link-hover">About</router-link> 
+        <router-link to="contact" class="link link-hover">Contact</router-link> 
+        <router-link to="surprise" class="link link-hover hover:text-primary">Surprise</router-link> 
     </div> 
     <div>
         <div class="grid grid-flow-col gap-4">
