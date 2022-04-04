@@ -15,7 +15,7 @@ import FooterSection from "../components/FooterSection.vue";
         <div class="badge badge-accent badge-outline">backend</div>
         </div>
         <p class="py-4 max-w-xl">I am a <span class="greenText">Junior Web Developer</span> looking for a job as Frontend or Full Stack.<br> I've been programming for 1 year and I love it. Since I descovered this world I've been continously studying.</p>
-        <button class="btn btn-primary">MORE ABOUT</button>
+        <router-link to="about" class="btn btn-primary">MORE ABOUT</router-link>
         </div>
     </div>
     </div>
