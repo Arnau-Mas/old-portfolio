@@ -1,6 +1,5 @@
 <script setup>
 import HomePage from './views/HomePage.vue';
-import MainTools from './views/MainTools.vue';
 import {ref} from 'vue';
 let isChecked = ref("true");
 let dataTheme = ref("forest");
@@ -15,7 +14,7 @@ function changeChecked(){
 </script>
 
 <template>
-<div class="transition-property: all h-screen" :data-theme="dataTheme">
+<div class="transition-property:all h-full" :data-theme="dataTheme">
 <div class="navbar bg-base-100 max-w-6xl mx-auto">
   <div class="navbar-start">
     <div class="dropdown">
@@ -49,7 +48,7 @@ function changeChecked(){
 <!-- hero -->
 <HomePage></HomePage>
 <!-- main tools -->
-<MainTools/>
+
 <div>
   
 </div>

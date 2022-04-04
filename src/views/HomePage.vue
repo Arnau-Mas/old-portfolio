@@ -1,5 +1,8 @@
+<script setup>
+    import MainTools from "../components/MainTools.vue";
+</script>
 <template>
-    <div class=" hero lg:mt-28">
+    <div class=" hero sm:mt-14 2xl:mt-28">
     <div class="hero-content flex-col lg:flex-row">
         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEiiSZIJ3tVWg/profile-displayphoto-shrink_800_800/0/1613426784148?e=2147483647&v=beta&t=Nn74ZVqYr4n743DRAakp066WiixOMOzPXUjS7HPuMMc" class="max-w-sm rounded-full shadow-2xl" />
         <div class="ml-10 text-left">
@@ -14,4 +17,5 @@
         </div>
     </div>
     </div>
+    <MainTools/>
 </template>
