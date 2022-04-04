@@ -1,7 +1,7 @@
 <template>
 <section class=" mt-8 h-screen max-w-6xl mx-auto flex flex-col">
-    <h1 class="ml-20 text-4xl font-semibold"><span class="text-primary font-bold textGreen">#</span>CONTACT</h1>
-<div class="mt-10 form-control flex flex-col gap-4 mx-auto w-full max-w-lg">
+<div class="mt-5 form-control flex flex-col gap-4 mx-auto w-full max-w-lg">
+<h1 class="max-w-lg text-3xl font-semibold"><span class="text-primary font-bold textGreen">#</span>LET'S TALK!</h1>
   <div class="flex gap-4">
       <div class=" w-72">
        <label class="label">
@@ -27,7 +27,7 @@
   <label class="label">
     <span class="label-text">Message*</span>
   </label> 
-  <textarea class="textarea textarea-primary textarea-bordered h-24" placeholder="Bio"></textarea>
+  <textarea class="textarea textarea-primary textarea-bordered h-24" placeholder="Type here"></textarea>
 </div>
  </div>
 <button class="btn btn-primary">Send</button>
