@@ -946,5 +946,8 @@ module.exports = {
     'active',
     'disabled',
   ],
-  plugins: [],
+  daisyui: {
+    themes: ["forest", "emerald", "bumblebee, lofi, cmyk"],
+  },
+  plugins: [require("daisyui")],
 }
