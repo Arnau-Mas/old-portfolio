@@ -6,7 +6,7 @@
                 <p class="font-bold">HTML</p>
             </div>
         </div>
-         <div class="tooltip tooltip-primary hover:scale-110 hover:bg-opacity-30 hover:bg-gray-700 rounded-2xl text-slate" data-tip="+1 year experience in CSS3 and 1 top project">
+         <div class="tooltip tooltip-primary hover:scale-110 hover:bg-opacity-30 hover:bg-gray-700 rounded-2xl text-slate" data-tip="+1 year experience in CSS3 with 1 top project">
             <div class="card-body p-5 items-center text-center">
                 <img class="sm:h-14 2xl:h-16" src="../assets/CSS3-logo.svg.png" alt="CSS3">
                 <p class="font-bold text-slate">CSS</p>
@@ -18,13 +18,13 @@
                 <p class="font-bold">JS</p>
             </div>
         </div>
-         <div class="tooltip tooltip-primary hover:scale-110 hover:bg-opacity-30 hover:bg-gray-700  rounded-2xl text-slate"  data-tip="Months of experience and 1 top project">
+         <div class="tooltip tooltip-primary hover:scale-110 hover:bg-opacity-30 hover:bg-gray-700  rounded-2xl text-slate"  data-tip="Months of experience with 1 top project">
             <div class="card-body p-5 items-center text-center">
                 <img class="sm:h-14 2xl:h-16" src="../assets/logo.png" alt="Vue">
                 <p class="font-bold">VUE</p>
             </div>
         </div>
-         <div class="tooltip tooltip-primary hover:scale-110 hover:bg-opacity-30 hover:bg-gray-700  rounded-2xl text-slate" data-tip="Months of experience and 1 top project">
+         <div class="tooltip tooltip-primary hover:scale-110 hover:bg-opacity-30 hover:bg-gray-700  rounded-2xl text-slate" data-tip="Months of experience with 1 top project">
             <div class="card-body p-5 items-center text-center">
                 <img class="sm:h-14 2xl:h-16" src="../assets/5968322.png" alt="Node">
                 <p class="font-bold">NODE</p>
