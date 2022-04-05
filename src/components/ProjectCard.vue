@@ -15,6 +15,7 @@
     <h2 class="card-title">{{title}}</h2>
     <p>{{description}}</p>
     <div class="card-actions justify-end">
+      <button class="btn border-primary bg-gray-700 bg-opacity-10">Demo</button>
       <button class="btn btn-primary">More</button>
     </div>
   </div>
