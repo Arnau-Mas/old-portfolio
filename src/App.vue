@@ -14,7 +14,7 @@ function changeChecked(){
 </script>
 
 <template>
-<div class="transition-property:all h-full" :data-theme="dataTheme">
+<div class="transition-property:all bg-base-100 h-full" :data-theme="dataTheme">
 <div class="navbar bg-base-100 max-w-6xl mx-auto">
   <div class="navbar-start">
     <div class="dropdown">

@@ -1,5 +1,5 @@
 <template>
-    <footer class="mt-10 footer footer-center p-10 bg-base-100 text-base-content rounded">
+    <footer class="footer footer-center p-10 mt-32 text-base-content rounded">
     <div class="grid grid-flow-col gap-4">
         <router-link to="about" class="link link-hover">About</router-link> 
         <router-link to="contact" class="link link-hover">Contact</router-link> 

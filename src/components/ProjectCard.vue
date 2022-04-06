@@ -8,18 +8,17 @@
 
 </script>
 <template>
-<!-- o bg-nseq 100 -->
-<div class="card w-80 bg-opacity-10 bg-gray-700 shadow-xl">
-  <figure><img :src="imageUrl" :alt="title"/></figure>
+<!-- o bg-nseq 100 --><div class="card card-compact w-80 bg-base-300 bg-opacity-50 border-2 border-gray-200 shadow-xl">
   <div class="card-body">
     <h2 class="card-title">{{title}}</h2>
     <p>{{description}}</p>
     <div class="card-actions justify-end">
-      <button class="btn border-primary bg-gray-700 bg-opacity-10">Demo</button>
+      <button class="btn btn-outline btn-primary">LINK</button>
       <button class="btn btn-primary">More</button>
     </div>
   </div>
 </div>
+
 
 <!--  -->
 <!-- <div class="card w-80 shadow-xl">
