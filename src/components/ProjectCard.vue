@@ -13,7 +13,7 @@
     <h2 class="card-title">{{title}}</h2>
     <p>{{description}}</p>
     <div class="card-actions justify-end">
-      <button class="btn btn-outline btn-primary">LINK</button>
+      <button class="btn btn-outline btn-primary"><a :href="projectUrl" target="_blank">LINK</a></button>
       <button class="btn btn-primary">More</button>
     </div>
   </div>
